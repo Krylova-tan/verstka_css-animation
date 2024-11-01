@@ -62,7 +62,7 @@
               class="card__img"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;/HTML&gt;</span>
+            <span aria-hidden="true" class="img__label">&lt;/HTML&gt;</span>
           </div>
 
           <div class="card__container">
@@ -126,7 +126,7 @@
               class="card__img img__filter-grayscale"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;/HTML&gt;</span>
+            <span aria-hidden="true" class="img__label">&lt;/HTML&gt;</span>
           </div>
 
           <div class="card__container">
@@ -193,7 +193,7 @@
               class="card__img img__filter-saturate"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;CSS&gt;</span>
+            <span aria-hidden="true" class="img__label">&lt;CSS&gt;</span>
           </div>
 
           <div class="card__container">
@@ -257,7 +257,7 @@
               class="card__img img__filter-hue"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;desigions&gt;</span>
+            <span aria-hidden="true" class="img__label">&lt;desigions&gt;</span>
           </div>
 
           <div class="card__container">
@@ -323,7 +323,7 @@
               class="card__img img__filter-invert"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">care</span>
+            <span aria-hidden="true" class="img__label">care</span>
           </div>
 
           <div class="card__container">
@@ -390,7 +390,7 @@
               class="card__img img__filter-sepia"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;support&gt;</span>
+            <span aria-hidden="true" class="img__label">&lt;support&gt;</span>
           </div>
 
           <div class="card__container">
@@ -454,7 +454,9 @@
               class="card__img img__filter-blur"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;lifes-style: none;&gt;</span>
+            <span aria-hidden="true" class="img__label"
+              >&lt;lifes-style: none;&gt;</span
+            >
           </div>
 
           <div class="card__container">
@@ -520,7 +522,9 @@
               class="card__img img__filter-mix"
               alt="Изображение фургона в лесу"
             />
-            <span class="img_label">&lt;experience&gt;</span>
+            <span aria-hidden="true" class="img__label"
+              >&lt;experience&gt;</span
+            >
           </div>
 
           <div class="card__container">
@@ -594,12 +598,12 @@
     </main>
 
     <dialog class="modal" id="modal">
-      <form class="modal__form">
+      <form method="dialog" class="modal__form">
         <div class="modal__container">
           <svg class="floppy__modal" viewBox="0 0 39 39">
             <use href="/svg/floppy.svg#floppy"></use>
           </svg>
-          <h2 class="modal__title">Вставьте дискету, чтобы продолжить</h2>
+          <p class="modal__subtitle">Вставьте дискету, чтобы продолжить</p>
         </div>
 
         <button type="submit" class="button modal__button">

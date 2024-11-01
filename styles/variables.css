@@ -2,8 +2,8 @@
 
 :root {
   --page-width: clamp(min(100%, 375px), 50vw, 700px);
-  --main-font: 'Inter-Variable';
-  --accent-font: 'PressStart2P-Regular';
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --main-font-weight: 400;
   --accent-font-weight: 700;
   --bg-color: #FFFFFF;
