@@ -29,7 +29,7 @@
 Клонируйте репозиторий
 
 ```
-git clone https://github.com/Krylova-tan/zakrivayuschiy-teg-f.git
+git clone https://github.com/Krylova-tan/verstka_css-animation.git
 ```
 
 Откройте файл index.html в браузере
